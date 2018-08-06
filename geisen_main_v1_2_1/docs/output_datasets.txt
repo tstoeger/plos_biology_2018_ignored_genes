@@ -1,0 +1,240 @@
+################
+###  Geisen v1.2
+
+
+New Features:
+- GIFtS score (through Genealacart)
+- Rosenfeld et al. 2013: gene-specific patents (geisen_manual 1.1)
+- Thul et al. 2017: subcellular localizaton (geisen_manual 1.1)
+- Genetic Testing Registry
+
+################
+###  Geisen v1.1.1
+
+- Fixed SEG: analyze sequence, not sequence header
+
+
+################
+###  Geisen v1.1
+
+New features:
+- add Biogrid database
+- fix, and thus enable, RVIS and GDI
+- add codon bias to genomic_cds
+
+Minor improvements:
+- add GXA_ label to GXA datasets
+- correct annotation of “km3” cells of Uhlen to “reh”
+- split Itzhak into correct subsets (isolating cytoplasmic)
+- repackage chromosome dataset to save disk space
+- make biosystems loadable by taxon
+
+
+################
+###  Geisen v1.0
+
+Unless indicated otherwise, data has been downloaded in February 2017
+
+
+
+# aminoacids
+
+Characteristics of amino acids, such as the raw count, but also derivates like isolectric point, and protein solubility.
+
+organization:
+by taxonomy id
+
+source:
+protein sequences were obtained from uniprot. swissprot (high-confidence proteins) and trembl (computationally predicted proteins) databases (both contained within uniprot), are separated; only proteins which are not a fragment of a protein (that lack corresponding tag in protein identifier) were considered
+
+mapping to entrez:
+median
+
+# flybase
+
+RNA expression of Drosophila melanogaster, as curated by flybase.
+
+source:
+flybase; only conidered modEncode data; and separated different datasets
+
+mapping to entrez:
+unambiguous between ensembl / flybase ID
+
+# genbank
+
+features of DNA, and RNA from genbank. For 20 most studied taxa.
+
+organization:
+by taxonomy id
+genbank_gene    gene
+genbank_cds     coding sequences, computationally predicted
+genomic_rna     genomic sequences, computationally predicted
+validated_rna   rna, high-confidence
+
+mapping to entrez:
+extracted entrez from genbank; for transcripts: median
+
+note 1:
+for some taxa some datasets are absent since there is no
+corresponding data of genbank
+
+note 2:
+in some taxa, RNA curation is worse (e.g.: in C. elegans there is no
+non-partial RNA reported)
+
+# genealacart
+
+Data downloaded from human meta-aggregator genealacart (v4.3, February 2017).
+Note that genealacart usually does not maintain metainformation. For instance
+the original OMIM database would allow more subtle queries
+
+the full genealacart database contains further resources (which are part of
+geisen_manual, but have not been included), such as drugs and compounds
+to individual genes (or the here redudnant: gene onthologies) and some
+commerical databases on pathways (novoseek; geneGo)
+
+
+organization:
+by dataset, split by source, if appropriate
+
+genealacart_diseases_amount
+genealacart_diseases_kind
+genealacart_encode_amount_of_tfs   # in Enhancers
+genealacart_encode_tfs_by_gene
+genealacart_intolerance_gdi      # Intolerance to mutations
+genealacart_intolerance_rvis      # Intolerance to mutations
+genealacart_omim_amount      # Mendelian disaeses
+genealacart_omim_kind 
+genealacart_orphanet_amount   # rare diseases
+genealacart_orphanet_kind
+genealacart_phenotype_ontology_amount   # human phenotype project
+genealacart_phenotype_ontology_kind
+genealacart_promoters_amount_of_tfs   # In promoter regions
+
+mapping to entrez:
+through symbol; ambiguous matches (not 1:1) only occured for two genes,
+which were subsequently excluded
+
+# gerstein
+
+C. elegans expression from modEncode project, as provided by modEncode
+as high level information on the homepage of the Gerstein lab.
+
+Note that there sample annotation is a bit ambigous, and some of the used
+loci tags are outdated
+
+
+# gxa
+
+EBML-EBI processes all public RNA expression experiments by same pipeline
+and quality controls. Presently geisen does not inlcude all expression data,
+but only a small set of the baseline files that coudld be downloaded
+from their webinterfact together with an unambiguous sample annotation
+
+see:
+https://www.ebi.ac.uk/gxa/home
+
+organization:
+matt_antalek_170222     # subset of animals
+
+
+# interpro
+
+Database, curated by EBI, that aggregates several bioinformatic
+prediction databases for any taxon
+
+organization:
+
+interpro_names.csv.gz  # lookup interpro domain to name
+
+and as hdf5 files, indexable by taxon_ncbi, individual databases:
+
+    cd          Conserved Domain
+    G3          CATH Superfamily
+    MF          Hamap
+    PD          ProDom
+    PF          Pfam
+    PI          Protein Information Resource
+    PR          PRINTS
+    PS          Prosite
+    PT          Panther
+    SF          Structure Function Linkage Database
+    SM          SMART
+    SS          SUPERFAMILY
+    TI          TIGR
+
+
+# ncbi/
+
+Contains several meta-information from NIH, organized by NIH
+taxon_id and gene_ncbi (entrez gene)
+
+chromosomes.h5  (index: 'taxon_ncbi')
+gene2ensembl.gz
+gene2go.gz   # includes additional column on quality of support
+gene2pubmed.h5   (indices: 'taxon_ncbi', 'gene_ncbi', 'pubmed_id')
+generifs_basic.gz
+homologene.gz   # mapped gens to taxon as used in NIH gene info
+taxon_names.h5  (index: 'taxon_ncbi')   # names of taxa
+taxon_nodes.h5  (index: 'taxon_ncbi')   # phylogenetic relation of taxa
+
+biosystems/    # databases on pathyways
+biosystems/biocyc
+biosystems/kegg
+biosystems/lipid_maps
+biosystems/pathway_interaction_database
+biosystems/reactome
+biosystems/wikipathways
+
+for background on biosystems:
+https://www.ncbi.nlm.nih.gov/Structure/biosystems/docs/biosystems_help.html#SourcePID
+
+gene_info/gene_info_full.gz   # full gene info
+gene_info/taxon_gene   # taxon and gene
+gene_info/gene_info_taxon_[]   # taxon specific
+
+
+# papers
+
+Supplemental materials of diverse papers.
+
+notable mentions:
+lek_2016    exAc database of human variation
+
+# radar
+
+Repetitiveness of amino acid sequences. In case of multiple repetitive sequencs, only
+the best one is considered. The rationale is that RADAR lists slightly different variants
+of the same repetitive sequences as different repetitive sequences.
+
+origin:
+non-fragment proteins of swissprot and trembl, listed for the twenty most studied 
+RADAR algorithm run locally
+
+# seg
+
+Structuredness of proteins
+
+origin:
+non-fragment proteins of swissprot and trembl, listed for the twenty most studied organisms
+SEG algorithm run locally
+
+# signalp
+
+signal peptides within proteins
+
+origin:
+non-fragment proteins of swissprot and trembl, listed for the twenty most studied organisms
+signalP run locally
+
+# uniprot
+
+Metainformation of uniprot, linking genes to proteins
+
+uniprot_id_mapper.h5   (indices gene_ncbi, protein_uniprot, taxon_ncbi)
+
+
+
+
+
+

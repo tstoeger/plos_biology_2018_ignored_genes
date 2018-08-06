@@ -1,0 +1,9 @@
+# Example commands
+
+python submit_zgbrh_stack_all.py -d /projects/b1022/Projects/thomas/resci_quest_computations/170904f_predict_year_of_initial_publication -p 90 -e 300 -n 100 -a 5 -r 400
+
+
+python submit_zgbrh_stack_importance_all.py -d /projects/b1022/Projects/thomas/resci_quest_computations/170924f_predict_human_fame_importance -p 90 -e 300 -n 25 -a 20 -r 400
+
+-n within job
+-a amount of jobs

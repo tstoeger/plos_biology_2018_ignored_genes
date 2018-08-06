@@ -1,0 +1,16 @@
+################
+###  Geisen _ manual v1.0
+
+Unless indicated otherwise, data has been downloaded in February 2017
+
+# genealacart
+
+All queries from genealacart, includes drugs, compounds, encode, human phenotypes, …
+
+# papers
+
+Various publications (generally: files as downloaded from publisher of indicated papers), such as Blomen et al. 2105, Hart et al. 2015, Itzhak et al. 2016, Lek et al. 2016, Rolland et al. 2014, Rosenfeld et al. 2013, Thul et al. 2017, Uhlen et al. 2015, Wang et al. 2015
+
+# ebi_expression_manual
+
+Manually downloaded expression data from ebi expression atlas

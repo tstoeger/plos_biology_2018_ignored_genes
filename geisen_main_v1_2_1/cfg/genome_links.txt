@@ -1,0 +1,462 @@
+## Collected on 17-02-08
+## - Manually collected through NIH genomes webpage
+##    https://ncbi.nlm.nih.gov/genome
+## - If only a single valid built: 
+##    reconstruct replicon format through displayed chromosome table
+## - Do not consider unmapped sequences
+
+# 9606
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.36_GRCh38.p10
+
+chromosome 1:NC_000001.11/CM000663.2
+chromosome 2:NC_000002.12/CM000664.2
+chromosome 3:NC_000003.12/CM000665.2
+chromosome 4:NC_000004.12/CM000666.2
+chromosome 5:NC_000005.10/CM000667.2
+chromosome 6:NC_000006.12/CM000668.2
+chromosome 7:NC_000007.14/CM000669.2
+chromosome 8:NC_000008.11/CM000670.2
+chromosome 9:NC_000009.12/CM000671.2
+chromosome 10:NC_000010.11/CM000672.2
+chromosome 11:NC_000011.10/CM000673.2
+chromosome 12:NC_000012.12/CM000674.2
+chromosome 13:NC_000013.11/CM000675.2
+chromosome 14:NC_000014.9/CM000676.2
+chromosome 15:NC_000015.10/CM000677.2
+chromosome 16:NC_000016.10/CM000678.2
+chromosome 17:NC_000017.11/CM000679.2
+chromosome 18:NC_000018.10/CM000680.2
+chromosome 19:NC_000019.10/CM000681.2
+chromosome 20:NC_000020.11/CM000682.2
+chromosome 21:NC_000021.9/CM000683.2
+chromosome 22:NC_000022.11/CM000684.2
+chromosome X:NC_000023.11/CM000685.2
+chromosome Y:NC_000024.10/CM000686.2
+mitochondrion MT:NC_012920.1/J01415.2
+
+# 10090
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/635/GCF_000001635.25_GRCm38.p5
+
+chromosome 1:NC_000067.6/CM000994.2
+chromosome 2:NC_000068.7/CM000995.2
+chromosome 3:NC_000069.6/CM000996.2
+chromosome 4:NC_000070.6/CM000997.2
+chromosome 5:NC_000071.6/CM000998.2
+chromosome 6:NC_000072.6/CM000999.2
+chromosome 7:NC_000073.6/CM001000.2
+chromosome 8:NC_000074.6/CM001001.2
+chromosome 9:NC_000075.6/CM001002.2
+chromosome 10:NC_000076.6/CM001003.2
+chromosome 11:NC_000077.6/CM001004.2
+chromosome 12:NC_000078.6/CM001005.2
+chromosome 13:NC_000079.6/CM001006.2
+chromosome 14:NC_000080.6/CM001007.2
+chromosome 15:NC_000081.6/CM001008.2
+chromosome 16:NC_000082.6/CM001009.2
+chromosome 17:NC_000083.6/CM001010.2
+chromosome 18:NC_000084.6/CM001011.2
+chromosome 19:NC_000085.6/CM001012.2
+chromosome X:NC_000086.7/CM001013.2
+chromosome Y:NC_000087.7/CM001014.2
+mitochondrion MT:NC_005089.1/AY172335.1
+
+# 10116
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/895/GCF_000001895.5_Rnor_6.0
+
+chromosome 1:NC_005100.4/CM000072.5
+chromosome 2:NC_005101.4/CM000073.5
+chromosome 3:NC_005102.4/CM000074.5
+chromosome 4:NC_005103.4/CM000075.5
+chromosome 5:NC_005104.4/CM000076.5
+chromosome 6:NC_005105.4/CM000077.5
+chromosome 7:NC_005106.4/CM000078.5
+chromosome 8:NC_005107.4/CM000079.5
+chromosome 9:NC_005108.4/CM000080.5
+chromosome 10:NC_005109.4/CM000081.5
+chromosome 11:NC_005110.4/CM000082.5
+chromosome 12:NC_005111.4/CM000083.5
+chromosome 13:NC_005112.4/CM000084.5
+chromosome 14:NC_005113.4/CM000085.5
+chromosome 15:NC_005114.4/CM000086.5
+chromosome 16:NC_005115.4/CM000087.5
+chromosome 17:NC_005116.4/CM000088.5
+chromosome 18:NC_005117.4/CM000089.5
+chromosome 19:NC_005118.4/CM000090.5
+chromosome 20:NC_005119.4/CM000091.5
+chromosome X:NC_005120.4/CM000092.5
+chromosome Y:NC_024475.1/CM002824.1
+mitochondrion MT:NC_001665.2/AY172581.1
+
+# 7227
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/215/GCF_000001215.4_Release_6_plus_ISO1_MT
+
+chromosome X:NC_004354.4/AE014298.5
+chromosome 2L:NT_033779.5/AE014134.6
+chromosome 2R:NT_033778.4/AE013599.5
+chromosome 3L:NT_037436.4/AE014296.5
+chromosome 3R:NT_033777.3/AE014297.3
+chromosome 4:NC_004353.4/AE014135.4
+chromosome Y:NC_024512.1/CP007106.1
+mitochondrion MT:NC_024511.2/KJ947872.2
+
+# 511145
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2
+
+chromosome:NC_000913.3/U00096.3
+
+# 559292
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/146/045/GCF_000146045.2_R64
+
+chromosome I:NC_001133.9/BK006935.2
+chromosome II:NC_001134.8/BK006936.2
+chromosome III:NC_001135.5/BK006937.2
+chromosome IV:NC_001136.10/BK006938.2
+chromosome V:NC_001137.3/BK006939.2
+chromosome VI:NC_001138.5/BK006940.2
+chromosome VII:NC_001139.9/BK006941.2
+chromosome VIII:NC_001140.6/BK006934.2
+chromosome IX:NC_001141.2/BK006942.2
+chromosome X:NC_001142.9/BK006943.2
+chromosome XI:NC_001143.9/BK006944.2
+chromosome XII:NC_001144.5/BK006945.2
+chromosome XIII:NC_001145.3/BK006946.2
+chromosome XIV:NC_001146.8/BK006947.3
+chromosome XV:NC_001147.6/BK006948.2
+chromosome XVI:NC_001148.4/BK006949.2
+mitochondrion MT:NC_001224.1/KP263414.1
+
+# 3702
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/735/GCF_000001735.3_TAIR10
+
+chromosome 1:NC_003070.9/CP002684.1
+chromosome 2:NC_003071.7/CP002685.1
+chromosome 3:NC_003074.8/CP002686.1
+chromosome 4:NC_003075.7/CP002687.1
+chromosome 5:NC_003076.8/CP002688.1
+mitochondrion MT:NC_001284.2/Y08501.2
+chloroplast Pltd:NC_000932.1/AP000423.1
+
+# 7955
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/035/GCF_000002035.5_GRCz10
+
+chromosome 1:NC_007112.6/CM002885.1
+chromosome 2:NC_007113.6/CM002886.1
+chromosome 3:NC_007114.6/CM002887.1
+chromosome 4:NC_007115.6/CM002888.1
+chromosome 5:NC_007116.6/CM002889.1
+chromosome 6:NC_007117.6/CM002890.1
+chromosome 7:NC_007118.6/CM002891.1
+chromosome 8:NC_007119.6/CM002892.1
+chromosome 9:NC_007120.6/CM002893.1
+chromosome 10:NC_007121.6/CM002894.1
+chromosome 11:NC_007122.6/CM002895.1
+chromosome 12:NC_007123.6/CM002896.1
+chromosome 13:NC_007124.6/CM002897.1
+chromosome 14:NC_007125.6/CM002898.1
+chromosome 15:NC_007126.6/CM002899.1
+chromosome 16:NC_007127.6/CM002900.1
+chromosome 17:NC_007128.6/CM002901.1
+chromosome 18:NC_007129.6/CM002902.1
+chromosome 19:NC_007130.6/CM002903.1
+chromosome 20:NC_007131.6/CM002904.1
+chromosome 21:NC_007132.6/CM002905.1
+chromosome 22:NC_007133.6/CM002906.1
+chromosome 23:NC_007134.6/CM002907.1
+chromosome 24:NC_007135.6/CM002908.1
+chromosome 25:NC_007136.6/CM002909.1
+mitochondrion MT:NC_002333.2/AC024175.3
+
+# 9913
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/003/055/GCF_000003055.6_Bos_taurus_UMD_3.1.1
+
+chromosome 1:AC_000158.1/GK000001.2
+chromosome 2:AC_000159.1/GK000002.2
+chromosome 3:AC_000160.1/GK000003.2
+chromosome 4:AC_000161.1/GK000004.2
+chromosome 5:AC_000162.1/GK000005.2
+chromosome 6:AC_000163.1/GK000006.2
+chromosome 7:AC_000164.1/GK000007.2
+chromosome 8:AC_000165.1/GK000008.2
+chromosome 9:AC_000166.1/GK000009.2
+chromosome 10:AC_000167.1/GK000010.2
+chromosome 11:AC_000168.1/GK000011.2
+chromosome 12:AC_000169.1/GK000012.2
+chromosome 13:AC_000170.1/GK000013.2
+chromosome 14:AC_000171.1/GK000014.2
+chromosome 15:AC_000172.1/GK000015.2
+chromosome 16:AC_000173.1/GK000016.2
+chromosome 17:AC_000174.1/GK000017.2
+chromosome 18:AC_000175.1/GK000018.2
+chromosome 19:AC_000176.1/GK000019.2
+chromosome 20:AC_000177.1/GK000020.2
+chromosome 21:AC_000178.1/GK000021.2
+chromosome 22:AC_000179.1/GK000022.2
+chromosome 23:AC_000180.1/GK000023.2
+chromosome 24:AC_000181.1/GK000024.2
+chromosome 25:AC_000182.1/GK000025.2
+chromosome 26:AC_000183.1/GK000026.2
+chromosome 27:AC_000184.1/GK000027.2
+chromosome 28:AC_000185.1/GK000028.2
+chromosome 29:AC_000186.1/GK000029.2
+chromosome X:AC_000187.1/GK000030.2
+mitochondrion MT:NC_006853.1/AY526085.1
+
+# 11676
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/864/765/GCF_000864765.1_ViralProj15476
+
+segment:NC_001802.1/AF033819.3
+
+# 9031
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/315/GCF_000002315.4_Gallus_gallus-5.0
+
+chromosome 1:NC_006088.4
+chromosome 2:NC_006089.4
+chromosome 3:NC_006090.4
+chromosome 4:NC_006091.4
+chromosome 5:NC_006092.4
+chromosome 6:NC_006093.4
+chromosome 7:NC_006094.4
+chromosome 8:NC_006095.4
+chromosome 9:NC_006096.4
+chromosome 10:NC_006097.4
+chromosome 11:NC_006098.4
+chromosome 12:NC_006099.4
+chromosome 13:NC_006100.4
+chromosome 14:NC_006101.4
+chromosome 15:NC_006102.4
+chromosome 16:NC_006103.4
+chromosome 17:NC_006104.4
+chromosome 18:NC_006105.4
+chromosome 19:NC_006106.4
+chromosome 20:NC_006107.4
+chromosome 21:NC_006108.4
+chromosome 22:NC_006109.4
+chromosome 23:NC_006110.4
+chromosome 24:NC_006111.4
+chromosome 25:NC_006112.3
+chromosome 26:NC_006113.4
+chromosome 27:NC_006114.4
+chromosome 28:NC_006115.4
+chromosome 30:NC_028739.1
+chromosome 31:NC_028740.1
+chromosome 32:NC_006119.3
+chromosome 33:NC_008465.3
+chromosome W:NC_006126.4
+chromosome Z:NC_006127.4
+
+# 6239
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/985/GCF_000002985.6_WBcel235
+
+chromosome I:NC_003279.8/BX284601.5
+chromosome II:NC_003280.10/BX284602.5
+chromosome III:NC_003281.10/BX284603.4
+chromosome IV:NC_003282.8/BX284604.4
+chromosome V:NC_003283.11/BX284605.5
+chromosome X:NC_003284.9/BX284606.5
+mitochondrion MT:NC_001328.1/X54252.1
+
+# 9823
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/003/025/GCF_000003025.5_Sscrofa10.2
+
+chromosome 1:NC_010443.4/CM000812.4
+chromosome 2:NC_010444.3/CM000813.4
+chromosome 3:NC_010445.3/CM000814.4
+chromosome 4:NC_010446.4/CM000815.4
+chromosome 5:NC_010447.4/CM000816.4
+chromosome 6:NC_010448.3/CM000817.4
+chromosome 7:NC_010449.4/CM000818.4
+chromosome 8:NC_010450.3/CM000819.4
+chromosome 9:NC_010451.3/CM000820.4
+chromosome 10:NC_010452.3/CM000821.4
+chromosome 11:NC_010453.4/CM000822.4
+chromosome 12:NC_010454.3/CM000823.4
+chromosome 13:NC_010455.4/CM000824.4
+chromosome 14:NC_010456.4/CM000825.4
+chromosome 15:NC_010457.4/CM000826.4
+chromosome 16:NC_010458.3/CM000827.4
+chromosome 17:NC_010459.4/CM000828.4
+chromosome 18:NC_010460.3/CM000829.4
+chromosome X:NC_010461.4/CM000830.4
+chromosome Y:NC_010462.2/
+mitochondrion MT:NC_000845.1/AF034253.1
+
+# 8355
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/663/975/GCF_001663975.1_Xenopus_laevis_v2
+
+chromosome 1L:NC_030724.1
+chromosome 1S:NC_030725.1
+chromosome 2L:NC_030726.1
+chromosome 2S:NC_030727.1
+chromosome 3L:NC_030728.1
+chromosome 3S:NC_030729.1
+chromosome 4L:NC_030730.1
+chromosome 4S:NC_030731.1
+chromosome 5L:NC_030732.1
+chromosome 5S:NC_030733.1
+chromosome 6L:NC_030734.1
+chromosome 6S:NC_030735.1
+chromosome 7L:NC_030736.1
+chromosome 7S:NC_030737.1
+chromosome 8L:NC_030738.1
+chromosome 8S:NC_030739.1
+chromosome 9_10L:NC_030740.1
+chromosome 9_10S:NC_030741.1
+mitochondrion MT:NC_001573.1
+
+# 284812
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/945/GCF_000002945.1_ASM294v2
+
+chromosome I:NC_003424.3
+chromosome II:NC_003423.3
+chromosome III:NC_003421.2
+mitochondrion MT:NC_001326.1
+
+# 386585
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/008/865/GCF_000008865.1_ASM886v1
+
+chromosome:NC_002695.1/BA000007.2
+plasmid pO157:NC_002128.1/AB011549.2
+plasmid pOSAK1:NC_002127.1/AB011548.2
+
+
+# 9615
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/285/GCF_000002285.3_CanFam3.1
+
+chromosome 1:NC_006583.3
+chromosome 2:NC_006584.3
+chromosome 3:NC_006585.3
+chromosome 4:NC_006586.3
+chromosome 5:NC_006587.3
+chromosome 6:NC_006588.3
+chromosome 7:NC_006589.3
+chromosome 8:NC_006590.3
+chromosome 9:NC_006591.3
+chromosome 10:NC_006592.3
+chromosome 11:NC_006593.3
+chromosome 12:NC_006594.3
+chromosome 13:NC_006595.3
+chromosome 14:NC_006596.3
+chromosome 15:NC_006597.3
+chromosome 16:NC_006598.3
+chromosome 17:NC_006599.3
+chromosome 18:NC_006600.3
+chromosome 19:NC_006601.3
+chromosome 20:NC_006602.3
+chromosome 21:NC_006603.3
+chromosome 22:NC_006604.3
+chromosome 23:NC_006605.3
+chromosome 24:NC_006606.3
+chromosome 25:NC_006607.3
+chromosome 26:NC_006608.3
+chromosome 27:NC_006609.3
+chromosome 28:NC_006610.3
+chromosome 29:NC_006611.3
+chromosome 30:NC_006612.3
+chromosome 31:NC_006613.3
+chromosome 32:NC_006614.3
+chromosome 33:NC_006615.3
+chromosome 34:NC_006616.3
+chromosome 35:NC_006617.3
+chromosome 36:NC_006618.3
+chromosome 37:NC_006619.3
+chromosome 38:NC_006620.3
+chromosome X:NC_006621.3
+mitochondrion MT:NC_002008.4
+
+# 224308
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/009/045/GCF_000009045.1_ASM904v1
+
+chromosome:NC_000964.3/AL009126.3
+
+# 9986
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/003/625/GCF_000003625.3_OryCun2.0
+
+chromosome 1:NC_013669.1
+chromosome 2:NC_013670.1
+chromosome 3:NC_013671.1
+chromosome 4:NC_013672.1
+chromosome 5:NC_013673.1
+chromosome 6:NC_013674.1
+chromosome 7:NC_013675.1
+chromosome 8:NC_013676.1
+chromosome 9:NC_013677.1
+chromosome 10:NC_013678.1
+chromosome 11:NC_013679.1
+chromosome 12:NC_013680.1
+chromosome 13:NC_013681.1
+chromosome 14:NC_013682.1
+chromosome 15:NC_013683.1
+chromosome 16:NC_013684.1
+chromosome 17:NC_013685.1
+chromosome 18:NC_013686.1
+chromosome 19:NC_013687.1
+chromosome 20:NC_013688.1
+chromosome 21:NC_013689.1
+chromosome X:NC_013690.1
+mitochondrion MT:NC_001913.1
+
+# 83332
+
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/195/955/GCF_000195955.2_ASM19595v2
+
+chromosome:NC_000962.3/AL123456.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
