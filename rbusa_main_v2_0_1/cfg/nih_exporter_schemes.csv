@@ -1,0 +1,14 @@
+Description,URL scheme (? Indicates Increment),First Value of Increment,Last Value of Increment
+Project funding for early years,https://exporter.nih.gov/CSVs/final/RePORTER_PRJFUNDING_C_FY????.zip,1985,1999
+DUNS for beginning of millenium,https://exporter.nih.gov/CSVs/final/RePORTER_DUNS_C_FY????.zip,2000,2008
+Author Affiliations,https://exporter.nih.gov/CSVs/final/RePORTER_AFFLNK_C_????.zip,2014,2016
+"Projects, prior years",https://exporter.nih.gov/CSVs/final/RePORTER_PRJ_C_FY????.zip,1985,2016
+"Projects, current",https://exporter.nih.gov/CSVs/final/RePORTER_PRJ_C_FY2017_???.zip,1,2
+"Abstracts, prior years",https://exporter.nih.gov/CSVs/final/RePORTER_PRJABS_C_FY????.zip,1985,2016
+"Abstracts, current year",https://exporter.nih.gov/CSVs/final/RePORTER_PRJABS_C_FY2017_???.zip,1,2
+Pubications,https://exporter.nih.gov/CSVs/final/RePORTER_PUB_C_????.zip,1980,2016
+Patents,https://exporter.nih.gov/CSVs/final/RePORTER_PATENTS_C_ALL.zip,,
+Clinical studies,https://exporter.nih.gov/CSVs/final/RePORTER_CLINICAL_STUDIES_C_ALL.zip,,
+"Publications, link tables",https://exporter.nih.gov/CSVs/final/RePORTER_PUBLNK_C_????.zip,1980,2016
+"Projects, current",https://exporter.nih.gov/CSVs/final/RePORTER_PRJ_C_FY2017_???.zip,4,34
+Pubications,https://exporter.nih.gov/CSVs/final/RePORTER_PRJABS_C_FY2017_???.zip,4,34
