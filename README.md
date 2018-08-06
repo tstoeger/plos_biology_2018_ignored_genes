@@ -1,5 +1,4 @@
-# prepare_plos_biology_2018
-code for Plos Biology, 2018
+# Large-scale investigation of the reasons why potentially important genes are ignored.
 
 ## Background
 
