@@ -2,7 +2,8 @@
 
 ## Background
 
-This repository contains copies of several repositories used for Stoeger, Gerlach, Morimoto, Amaral, Plos Biology, 2018.
+This repository contains copies of several repositories used for [Stoeger, Gerlach, Morimoto, Amaral, Plos Biology, 2018](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2006643).
+
 
 ## Content
 
@@ -19,7 +20,7 @@ Briefly, robusa (or rbusa for legacy reasons) collects information outside of th
 ## Data Sources
 
 
-Note that raw data of used data sources can not be shared for legal reasons. For data, which will not be automatically downloaded through the in-built downloading function of geisen, please see our mnanuscript for data sources, and ways to license them. 
+Note that raw data of used data sources can not be shared for legal reasons. For data, which will not be automatically downloaded through the in-built downloading function of geisen, please see our manuscript for data sources, and ways to license them. 
 
 ## Setup
 
